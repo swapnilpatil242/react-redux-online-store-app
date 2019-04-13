@@ -1,0 +1,9 @@
+.Header {
+  background-color: cadetblue;
+  padding: 30px;
+}
+.HeaderCommenText {
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 25px;
+}

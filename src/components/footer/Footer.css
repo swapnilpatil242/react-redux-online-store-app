@@ -1,0 +1,12 @@
+.Footer {
+  background-color: cadetblue;
+  padding: 30px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.FooterCommenText {
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 25px;
+}
