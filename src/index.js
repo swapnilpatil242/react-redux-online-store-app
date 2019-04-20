@@ -5,9 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from "react-redux";
 import reducer from './reducers/Reducer';
-import { createStore } from 'redux';
-
-const store = createStore(reducer);
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+// added the middle ware for async actions
+const store = createStore(reducer, applyMiddleware(thunk));
 // {Provider} provides store to every child component that way added in parent
 // createStore to create store through redux
 ReactDOM.render(

@@ -1,0 +1,90 @@
+{
+  "productDetails": [
+    {
+      "productName": "Soaps",
+      "productSlug": "soaps",
+      "productDesc": "All type of soaps"
+    },
+    {
+      "productName": "Electronics",
+      "productSlug": "electronics",
+      "productDesc": "All type of electronics"
+    },
+    {
+      "productName": "Clothes",
+      "productSlug": "clothes",
+      "productDesc": "All type of Clothes"
+    }
+  ],
+  "productItems": {
+    "soaps": [
+      {
+        "productSlug": "soaps",
+        "itemName": "dettol",
+        "itemSlug": "dettol",
+        "itemDesc": "Dettol soap description",
+        "itemPrice": "45"
+      },
+      {
+        "productSlug": "soaps",
+        "itemName": "Lux",
+        "itemSlug": "lux",
+        "itemDesc": "lux soap description",
+        "itemPrice": "38"
+      },
+      {
+        "productSlug": "soaps",
+        "itemName": "Santoor",
+        "itemSlug": "santoor",
+        "itemDesc": "santoor soap description",
+        "itemPrice": "28"
+      }
+    ],
+    "electronics": [
+      {
+        "productSlug": "electronics",
+        "itemName": "sony tv",
+        "itemSlug": "sony-tv",
+        "itemDesc": "This is sony tv electronics description",
+        "itemPrice": "53000"
+      },
+      {
+        "productSlug": "electronics",
+        "itemName": "Nokia 6.1 plus",
+        "itemSlug": "mob-nokia-6.1",
+        "itemDesc": "This is Nokia 6.1 plus electronics description",
+        "itemPrice": "19000"
+      },
+      {
+        "productSlug": "electronics",
+        "itemName": "MacBook Pro 13\"",
+        "itemSlug": "macbook-pro-13",
+        "itemDesc": "This is macbook pro 13 inch electronics description",
+        "itemPrice": "175000"
+      }
+    ],
+    "clothes": [
+      {
+        "productSlug": "clothes",
+        "itemName": "U-shap t-shirt",
+        "itemSlug": "u-shap-t-shirt",
+        "itemDesc": "This is U-shap t-shirt under clothes description",
+        "itemPrice": ""
+      },
+      {
+        "productSlug": "clothes",
+        "itemName": "Michi Cap",
+        "itemSlug": "michi-cap",
+        "itemDesc": "This is Michi Cap under clothes description",
+        "itemPrice": ""
+      },
+      {
+        "productSlug": "clothes",
+        "itemName": "buffalo jeans",
+        "itemSlug": "buffalo-jeans",
+        "itemDesc": "This is buffalo jeans under clothes description",
+        "itemPrice": ""
+      }
+    ]
+  }
+}
