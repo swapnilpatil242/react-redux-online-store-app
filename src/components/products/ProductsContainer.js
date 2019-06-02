@@ -1,21 +1,18 @@
 import React from 'react';
-import './ProductStore.css';
 import { connect } from 'react-redux';
 import ProductStoreAction from '../../actions/ProductStoreAction';
+import Products from "./Products";
 
 // This is the container class file
-class ProductStore extends React.Component {
+class ProductsContainer extends React.Component {
   componentDidMount() {
     const { actions } = this.props;
     actions.fetchProductsDetails();
   }
 
   render() {
-    console.log("data=>", this.props.productDetails);
     return (
-      <div className="ProductList">
-        ProductStore where admin can edit delete data.....
-      </div>
+      <Products {...this.props} />
     );
   }
 }
@@ -40,4 +37,4 @@ const mapDispatchToProps = dispatch => {
 // connect pass two params
 // 1: which part of state need for this component
 // 2: which action need's to dispatch
-export default connect(mapStateToProps, mapDispatchToProps)(ProductStore);
+export default connect(mapStateToProps, mapDispatchToProps)(ProductsContainer);

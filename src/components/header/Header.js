@@ -8,8 +8,8 @@ const Header = () => {
       <Link to="/" >
         <span className="HeaderCommenText">Home</span>
       </Link>
-      <Link to="/manage-product" >
-        <span className="HeaderCommenText">Manage Products</span>
+      <Link to="/products" >
+        <span className="HeaderCommenText">Products</span>
       </Link>
       <Link to="/online-store" >
           <span className="HeaderCommenText">Online Store</span>
