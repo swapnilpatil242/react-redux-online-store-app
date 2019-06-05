@@ -66,3 +66,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## TEST ::
+  ### Run test cases using following commands
+    # Run all test cases
+    `$ npm run test`
+    # Run test case for specific file 
+    `$ npm run test file_path`
+  
+  ### Ref Docs :
+  https://airbnb.io/enzyme/        
+  https://medium.com/@harshverma04111989/unit-testing-of-react-redux-app-d7a13679e449
+  

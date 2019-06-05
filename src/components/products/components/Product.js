@@ -3,9 +3,9 @@ import React from 'react';
 const Product = ({productData}) => {
   return(
     <tr>
-      <td> {productData.productName} </td>
-      <td> {productData.productSlug} </td>
-      <td> {productData.productDesc} </td>
+      <td id="product-name"> {productData.productName} </td>
+      <td id="product-slug"> {productData.productSlug} </td>
+      <td id="product-desc"> {productData.productDesc} </td>
     </tr>
   );
 }
