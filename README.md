@@ -77,5 +77,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
   
   ### Ref Docs :
   https://airbnb.io/enzyme/        
+  https://devhints.io/enzyme
   https://medium.com/@harshverma04111989/unit-testing-of-react-redux-app-d7a13679e449
+  https://medium.com/@harshverma04111989/extensive-unit-testing-for-react-redux-app-f9224c757ce6
   
