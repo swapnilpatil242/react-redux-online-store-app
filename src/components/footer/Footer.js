@@ -6,8 +6,6 @@ const Footer = () => {
     <div className="Footer">
       <span className="FooterCommenText">About us</span>
       <span className="FooterCommenText">Contact us</span>
-      <span className="FooterCommenText">News</span>
-      <span className="FooterCommenText">This is the practice online store..</span>
     </div>
   );
 }

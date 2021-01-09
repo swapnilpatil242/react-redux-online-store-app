@@ -1,26 +1,43 @@
-import { productStoreActionTypes } from "../constants/ActionsType";
+import { productStoreActionTypes, questionStoreActionTypes } from "../constants/ActionsType";
 
 const initialState = {
-  productDetails: null,
   fetchingError: false,
   fetching: false,
+  currentQuestion: null,
+  questions: {},
+  timer: 60,
 }
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case productStoreActionTypes.fetchProducts:
-      return { ...state,
-        fetching: true 
-      }
-    case productStoreActionTypes.fetchProductsSuccess:
-      return { ...state,
-        productDetails: action.productDetails,
+    // case productStoreActionTypes.fetchProducts:
+    //   return { ...state, fetching: true };
+    // case productStoreActionTypes.fetchProductsSuccess:
+    //   return {
+    //     ...state,
+    //     productDetails: action.productDetails,
+    //     fetchingError: false,
+    //     fetching: false,
+    //   };
+    // case productStoreActionTypes.fetchProductsFailure:
+    //   return {
+    //     ...state,
+    //     productDetails: null,
+    //     fetchingError: true,
+    //     fetching: false,
+    //   };
+    case questionStoreActionTypes.fetchQuestions:
+      return { ...state, fetching: true };
+    case questionStoreActionTypes.fetchQuestionsSuccess:
+      return {
+        ...state,
+        questions: action.questionsData,
         fetchingError: false,
         fetching: false,
       };
-    case productStoreActionTypes.fetchProductsFailure:
+    case questionStoreActionTypes.fetchQuestionsFailure:
       return {
         ...state,
-        productDetails: null,
+        questions: {},
         fetchingError: true,
         fetching: false,
       };
